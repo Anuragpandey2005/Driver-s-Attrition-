@@ -45,21 +45,21 @@ The goal is to develop a predictive model that helps Ola retain drivers and opti
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 📁 Project Structure
-Project Structure:
-
 driver-attrition-prediction/
 │
 ├── data/                      # Folder for raw/processed data (optional)
-│   ├── Ola2.csv               # Data.csv Files Used for Comparison
+│   ├── Ola2.csv                # Dataset for comparison
 │   ├── rapido.csv
 │   ├── uber.csv
+│
 ├── static/                    # Static assets like CSS or images
-│   ├── dashboardstyle.css     # css for comparison.html
-│   ├── styles.css             # css for index.html
+│   ├── dashboardstyle.css      # CSS for comparison.html
+│   ├── styles.css              # CSS for index.html
+│
 ├── templates/                 # HTML templates for Flask
-│   ├── index.html             # Homepage
-│   ├── comparison.html        # Data comparison and visualization
-│   └── result.html            # Model prediction output
+│   ├── index.html              # Homepage
+│   ├── comparison.html         # Data comparison and visualization
+│   └── result.html             # Model prediction output
 │
 ├── app4.py                    # Main Flask application file
 ├── ola.csv                    # Ola drivers dataset
